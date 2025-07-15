@@ -56,11 +56,22 @@ When you look at the chart percentage wise males are dying more. About 65% of th
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+When looking at the number's 64 out of 100 males have died and 36 out of 100 females have died. There are more males dead than females.
 
 ## Inferential results 
 
-
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+based off the statistics covid is killing more males than females 
 
 ## Conclusions
 
