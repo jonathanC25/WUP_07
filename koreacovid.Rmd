@@ -74,4 +74,4 @@ fisher.test(table1)
 based off the statistics covid-19 is killing more males than females 
 
 ## Conclusions
-
+Percentage wise there was more females in the alive section than males. Also percentage wise males dominated the dead section. This shows that the death toll was not equivalant between male and female. Therefore there was no more death scene in males than female. 
