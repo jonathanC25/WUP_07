@@ -71,7 +71,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-based off the statistics covid is killing more males than females 
+based off the statistics covid-19 is killing more males than females 
 
 ## Conclusions
 
